@@ -53,4 +53,26 @@
         Addresses:  2001:503:ba3e::2:30
                   198.41.0.4
                   
-4)
+4) Команды перехода между серверами
+
+        > server 194.226.235.1
+        ╤хЁтхЁ яю єьюыўрэш■:  [194.226.235.1]
+        Address:  194.226.235.1
+        
+       > server ns1.urfu.ru
+        DNS request timed out.
+            timeout was 2 seconds.
+        DNS request timed out.
+            timeout was 2 seconds.
+        DNS request timed out.
+            timeout was 2 seconds.
+        DNS request timed out.
+            timeout was 2 seconds.
+        *** Не найден адрес для сервера ns1.urfu.ru: Timed out
+        
+        > lserver ns1.urfu.ru
+        ╤хЁтхЁ яю єьюыўрэш■:  ns1.urfu.ru
+        Address:  212.193.66.21
+        
+Команду server <имя> используем, если хотим разрешать доменные имена с указанного сервера <имя> (становится деволтным для текущего сеанса. Сменить сервер на другой нельзя.
+С помощью команды lserver <имя> это становится возможным, потому что имя другого сервера будет разрешано с вашего DNS-сервера, который стоит по умолчанию.
