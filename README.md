@@ -30,4 +30,27 @@
         msu.ru  nameserver = ns.msu.net
 
         ns.msu.ru       internet address = 93.180.0.1
+        ns.msu.net      internet address = 212.16.0.1ns1.orc.ru
+        ns1.orc.ru      internet address = 212.48.128.152
+        ns3.nic.fr      internet address = 192.134.0.49
+        ns3.nic.fr      AAAA IPv6 address = 2001:660:3006:1::1:1
+        
+    Адреса
+    
+        > nslookup urfu.ru
+        ╤хЁтхЁ:  urfu.ru
+        Address:  212.193.82.20
+
+        > nslookup rbc.ru
+        ╤хЁтхЁ:  rbc.ru
+        Addresses:  80.68.253.9
+                  185.72.229.9
   
+3) 
+
+        > root
+        ╤хЁтхЁ яю єьюыўрэш■:  A.ROOT-SERVERS.NET
+        Addresses:  2001:503:ba3e::2:30
+                  198.41.0.4
+                  
+4)
