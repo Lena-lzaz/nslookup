@@ -117,3 +117,52 @@
         a.gtld-servers.net      AAAA IPv6 address = 2001:503:a83e::2:30
         c.gtld-servers.net      internet address = 192.26.92.30
         c.gtld-servers.net      AAAA IPv6 address = 2001:503:83eb::30
+
+    org.
+    
+        > org.
+        ╤хЁтхЁ:  a.root-servers.net
+        Address:  198.41.0.4
+
+        org     nameserver = a0.org.afilias-nst.info
+        org     nameserver = a2.org.afilias-nst.info
+        org     nameserver = b0.org.afilias-nst.org
+        org     nameserver = b2.org.afilias-nst.org
+        org     nameserver = c0.org.afilias-nst.info
+        org     nameserver = d0.org.afilias-nst.org
+        a0.org.afilias-nst.info internet address = 199.19.56.1
+        a2.org.afilias-nst.info internet address = 199.249.112.1
+        b0.org.afilias-nst.org  internet address = 199.19.54.1
+        b2.org.afilias-nst.org  internet address = 199.249.120.1
+        c0.org.afilias-nst.info internet address = 199.19.53.1
+        d0.org.afilias-nst.org  internet address = 199.19.57.1
+        a0.org.afilias-nst.info AAAA IPv6 address = 2001:500:e::1
+        a2.org.afilias-nst.info AAAA IPv6 address = 2001:500:40::1
+        b0.org.afilias-nst.org  AAAA IPv6 address = 2001:500:c::1
+        b2.org.afilias-nst.org  AAAA IPv6 address = 2001:500:48::1
+        c0.org.afilias-nst.info AAAA IPv6 address = 2001:500:b::1
+        d0.org.afilias-nst.org  AAAA IPv6 address = 2001:500:f::1
+
+    ru.
+    
+        > ru.
+        ╤хЁтхЁ:  a.root-servers.net
+        Address:  198.41.0.4
+
+        ru      nameserver = a.dns.ripn.net
+        ru      nameserver = e.dns.ripn.net
+        ru      nameserver = f.dns.ripn.net
+        ru      nameserver = d.dns.ripn.net
+        ru      nameserver = b.dns.ripn.net
+        a.dns.ripn.net  internet address = 193.232.128.6
+        a.dns.ripn.net  AAAA IPv6 address = 2001:678:17:0:193:232:128:6
+        e.dns.ripn.net  internet address = 193.232.142.17
+        e.dns.ripn.net  AAAA IPv6 address = 2001:678:15:0:193:232:142:17
+        f.dns.ripn.net  internet address = 193.232.156.17
+        f.dns.ripn.net  AAAA IPv6 address = 2001:678:14:0:193:232:156:17
+        d.dns.ripn.net  internet address = 194.190.124.17
+        d.dns.ripn.net  AAAA IPv6 address = 2001:678:18:0:194:190:124:17
+        b.dns.ripn.net  internet address = 194.85.252.62
+        b.dns.ripn.net  AAAA IPv6 address = 2001:678:16:0:194:85:252:62
+        
+6)
