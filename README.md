@@ -85,3 +85,35 @@
         ╤хЁтхЁ яю єьюыўрэш■:  A.ROOT-SERVERS.NET
         Addresses:  2001:503:ba3e::2:30
                   198.41.0.4
+                  
+5) com.
+
+        > com.
+        ╤хЁтхЁ:  UnKnown
+        Address:  192.168.0.1
+
+        com     nameserver = b.gtld-servers.net
+        com     nameserver = m.gtld-servers.net
+        com     nameserver = j.gtld-servers.net
+        com     nameserver = i.gtld-servers.net
+        com     nameserver = a.gtld-servers.net
+        com     nameserver = c.gtld-servers.net
+        com     nameserver = d.gtld-servers.net
+        com     nameserver = k.gtld-servers.net
+        com     nameserver = g.gtld-servers.net
+        com     nameserver = f.gtld-servers.net
+        com     nameserver = l.gtld-servers.net
+        com     nameserver = e.gtld-servers.net
+        com     nameserver = h.gtld-servers.net
+        b.gtld-servers.net      internet address = 192.33.14.30
+        b.gtld-servers.net      AAAA IPv6 address = 2001:503:231d::2:
+        m.gtld-servers.net      internet address = 192.55.83.30
+        m.gtld-servers.net      AAAA IPv6 address = 2001:501:b1f9::30
+        j.gtld-servers.net      internet address = 192.48.79.30
+        j.gtld-servers.net      AAAA IPv6 address = 2001:502:7094::30
+        i.gtld-servers.net      internet address = 192.43.172.30
+        i.gtld-servers.net      AAAA IPv6 address = 2001:503:39c1::30
+        a.gtld-servers.net      internet address = 192.5.6.30
+        a.gtld-servers.net      AAAA IPv6 address = 2001:503:a83e::2:30
+        c.gtld-servers.net      internet address = 192.26.92.30
+        c.gtld-servers.net      AAAA IPv6 address = 2001:503:83eb::30
