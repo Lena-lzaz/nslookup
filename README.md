@@ -1,7 +1,7 @@
 # nslookup
-Зубарева Еленаб КН-202
+Зубарева Елена, КН-202
 
-2) urfu.ru
+2) *urfu.ru
 
         > set type=ns
         > urfu.ru
@@ -17,7 +17,7 @@
         ns2.urfu.ru     internet address = 212.193.82.21
         ns3.urfu.ru     internet address = 212.193.72.21
         
-  msu.ru
+     *msu.ru
   
         > msu.ru
         ╤хЁтхЁ:  UnKnown
