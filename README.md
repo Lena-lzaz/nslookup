@@ -233,4 +233,35 @@
         ╤хЁтхЁ:  [212.193.66.21]
         Address:  212.193.66.21
 
+7) edu.ru
+
+        > lserver 93.180.0.1
+        ╤хЁтхЁ яю єьюыўрэш■:  [93.180.0.1]
+        Address:  93.180.0.1
+
+        > ls -d edu.ru > f_edu.txt
+        [[93.180.0.1]]
+        ####
+        Received 1800 records.
         
+   urfu.ru
+   
+        > lserver 212.193.66.21
+        ╤хЁтхЁ яю єьюыўрэш■:  [212.193.66.21]
+        Address:  212.193.66.21
+
+        > ls -t A urfu.ru > f_urfu.txt
+        [[212.193.66.21]]
+        Received 0 records.
+        *** Can't list domain urfu.ru: Query refused
+        
+   mail.ru
+   
+        > lserver 217.69.139.112
+        ╤хЁтхЁ яю єьюыўрэш■:  [217.69.139.112]
+        Address:  217.69.139.112
+
+        > ls -t MX mail.ru > f_mail.txt
+        [[217.69.139.112]]
+        Received 0 records.
+        *** Can't list domain mail.ru: Query refused
