@@ -336,4 +336,8 @@
         ns3.mail.ru     internet address = 185.30.176.202
         ns3.mail.ru     AAAA IPv6 address = 2a00:1148:db00::2
         
-9) Послный список доменов верхнего уровня с www.iana.org(www.icann.org) в файле
+9) Послный список доменов верхнего уровня с www.iana.org(www.icann.org) в файле top_level_domains.txt
+   Стоимость регистрации собственного домена: https://www.nic.ru/dns/reglaments/pdf/sup2_price_NIC_D.pdf
+   Регистратора с минимальной стоимостью домена в зоне ru. https://www.majordomo.ru/domain (140 руб./год)
+                                                     -||- https://ru.godaddy.com/tlds/org-domain (для org - 482,00руб./год)
+                                                     -||- https://ru.godaddy.com/tlds/ (для com - 69,00руб./год - первый год)
