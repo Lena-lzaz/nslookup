@@ -122,7 +122,7 @@
     
         > org.
         ╤хЁтхЁ:  a.root-servers.net
-        Address:  198.41.0.4
+        Address:  192.168.0.1
 
         org     nameserver = a0.org.afilias-nst.info
         org     nameserver = a2.org.afilias-nst.info
@@ -147,7 +147,7 @@
     
         > ru.
         ╤хЁтхЁ:  a.root-servers.net
-        Address:  198.41.0.4
+        Address:  192.168.0.1
 
         ru      nameserver = a.dns.ripn.net
         ru      nameserver = e.dns.ripn.net
@@ -169,7 +169,7 @@
         
         > ru.
         ╤хЁтхЁ:  UnKnown
-        Address:  192.168.43.1
+        Address:  192.168.0.1
 
         a.dns.ripn.net  internet address = 193.232.128.6
         
@@ -193,7 +193,7 @@
     
         > ru.
         ╤хЁтхЁ:  UnKnown
-        Address:  192.168.43.1
+        Address:  192.168.0.1
 
         a.dns.ripn.net  internet address = 193.232.128.6
         
@@ -217,7 +217,7 @@
     
         > ru.
         ╤хЁтхЁ:  UnKnown
-        Address:  192.168.43.1
+        Address:  192.168.0.1
 
         a.dns.ripn.net  internet address = 193.232.128.6
         
@@ -265,3 +265,75 @@
         [[217.69.139.112]]
         Received 0 records.
         *** Can't list domain mail.ru: Query refused
+
+8) Начальная запись зоны
+   *ya.ru
+        
+        > set type=soa
+        > ya.ru.
+        ╤хЁтхЁ:  UnKnown
+        Address:  192.168.0.1
+
+        Не заслуживающий доверия ответ:
+        ya.ru
+        primary name server = ns1.yandex.ru
+        responsible mail addr = sysadmin.yandex.ru
+        serial  = 2018031600
+        refresh = 900 (15 mins)
+        retry   = 600 (10 mins)
+        expire  = 2592000 (30 days)
+        default TTL = 900 (15 mins)
+
+        ya.ru   nameserver = ns2.yandex.ru
+        ya.ru   nameserver = ns1.yandex.ru
+    
+    *urfu.ru 
+    
+        > urfu.ru.
+        ╤хЁтхЁ:  UnKnown
+        Address:  192.168.0.1
+
+        Не заслуживающий доверия ответ:
+        urfu.ru
+                primary name server = ns1.urfu.ru
+                responsible mail addr = hostmaster.urfu.ru
+                serial  = 2012091861
+                refresh = 3600 (1 hour)
+                retry   = 1800 (30 mins)
+                expire  = 2419200 (28 days)
+                default TTL = 3600 (1 hour)
+
+        urfu.ru nameserver = ns2.urfu.ru
+        urfu.ru nameserver = ns3.urfu.ru
+        urfu.ru nameserver = ns1.urfu.ru
+        ns1.urfu.ru     internet address = 212.193.66.21
+        ns2.urfu.ru     internet address = 212.193.82.21
+        ns3.urfu.ru     internet address = 212.193.72.21
+    
+     *mail.ru
+     
+        > mail.ru.
+        ╤хЁтхЁ:  UnKnown
+        Address:  192.168.0.1
+
+        Не заслуживающий доверия ответ:
+        mail.ru
+                primary name server = ns1.mail.ru
+                responsible mail addr = hostmaster.mail.ru
+                serial  = 3312856144
+                refresh = 900 (15 mins)
+                retry   = 900 (15 mins)
+                expire  = 604800 (7 days)
+                default TTL = 60 (1 min)
+
+        mail.ru nameserver = ns2.mail.ru
+        mail.ru nameserver = ns1.mail.ru
+        mail.ru nameserver = ns3.mail.ru
+        ns2.mail.ru     internet address = 94.100.180.138
+        ns2.mail.ru     AAAA IPv6 address = 2a00:1148:db00::1
+        ns1.mail.ru     internet address = 217.69.139.112
+        ns1.mail.ru     AAAA IPv6 address = 2a00:1148:db00::2
+        ns3.mail.ru     internet address = 185.30.176.202
+        ns3.mail.ru     AAAA IPv6 address = 2a00:1148:db00::2
+        
+9) Послный список доменов верхнего уровня с www.iana.org(www.icann.org) в файле
