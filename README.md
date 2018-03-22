@@ -165,4 +165,72 @@
         b.dns.ripn.net  internet address = 194.85.252.62
         b.dns.ripn.net  AAAA IPv6 address = 2001:678:16:0:194:85:252:62
         
-6)
+6) cs.usu.edu.ru
+        
+        > ru.
+        ╤хЁтхЁ:  UnKnown
+        Address:  192.168.43.1
+
+        a.dns.ripn.net  internet address = 193.232.128.6
+        
+        > edu.ru.
+        ╤хЁтхЁ:  a.dns.ripn.net
+        Address:  193.232.128.6
+
+        ns.MSU.RU       internet address = 93.180.0.1
+        
+        > usu.edu.ru
+        ╤хЁтхЁ:  ns.msu.ru
+        Address:  93.180.0.1
+
+        usu.edu.ru      nameserver = ns.urgu.org
+        
+        > cs.usu.edu.ru
+        ╤хЁтхЁ:  ns.urgu.org
+        Address:  212.193.68.254
+        
+    www.imm.uran.ru
+    
+        > ru.
+        ╤хЁтхЁ:  UnKnown
+        Address:  192.168.43.1
+
+        a.dns.ripn.net  internet address = 193.232.128.6
+        
+        > uran.ru.
+        ╤хЁтхЁ:  a.dns.ripn.net
+        Address:  193.232.128.6
+
+        ns.URAN.RU      internet address = 195.19.137.69
+        
+        > imm.uran.ru.
+        ╤хЁтхЁ:  ns.uran.ru
+        Address:  195.19.137.69
+
+        ns.uran.ru      internet address = 195.19.137.69
+        
+        > www.imm.uran.ru.
+        ╤хЁтхЁ:  ns.uran.ru
+        Address:  195.19.137.69
+        
+    kma.imkn.urfu.ru
+    
+        > ru.
+        ╤хЁтхЁ:  UnKnown
+        Address:  192.168.43.1
+
+        a.dns.ripn.net  internet address = 193.232.128.6
+        
+        > urfu.ru
+        ╤хЁтхЁ:  a.dns.ripn.net
+        Address:  193.232.128.6
+        
+        > imkn.urfu.ru
+        ╤хЁтхЁ:  [212.193.66.21]
+        Address:  212.193.66.21
+        
+        > kma.imkn.urfu.ru
+        ╤хЁтхЁ:  [212.193.66.21]
+        Address:  212.193.66.21
+
+        
